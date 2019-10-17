@@ -1,0 +1,5 @@
+export const A_ADD_ARTICLE = "A_ADD_ARTICLE"
+export const A_ADD_COMMENT = "A_ADD_COMMENT"
+export const A_DELETE_COMMENTS = "A_DELETE_COMMENTS"
+export const A_DELETE_ARTICLE = "A_DELETE_ARTICLE"
+export const A_EDIT_ARTICLE = "A_EDIT_ARTICLE"

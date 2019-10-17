@@ -1,0 +1,45 @@
+.blog-content {
+  padding: 80px;
+
+  .blog-item {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px 0 rgba(100,100,100,.2);
+    cursor: pointer;
+    transition: all .2s;
+    &:hover {
+      background-color: #fbfbfb;
+      box-shadow: 0 2px 7px 0 rgba(100,100,100,.4);
+    }
+    &:not(:last-child) {
+      margin-bottom: 15px;
+    }
+    .headline {
+      h3 {
+        color: #17145b;
+        font-size: 16px;
+        margin-bottom: 10px;
+        &.align-center {
+          text-align: center;
+        }
+      }
+    }
+    .description {
+      font-size: 14px;
+      color: #626262;
+      line-height: 16px;
+      margin-bottom: 15px;
+    }
+    .comments-wrap {
+      display: flex;
+      justify-content: flex-end;
+
+      .comments {
+        font-size: 13px;
+        color: #039BE5;
+      }
+    }
+
+  }
+}
