@@ -154,6 +154,7 @@
 
 <style lang="scss" scoped>
     .modal-content {
+        min-width: 1000px;
         position: fixed;
         top: 0;
         left: 0;

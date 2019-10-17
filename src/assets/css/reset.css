@@ -21,6 +21,7 @@ footer, header, hgroup, menu, nav, section {
     display: block;
 }
 body {
+    min-width: 1000px;
     line-height: 1;
     font-family: sans-serif;
     background-color: #efefef;
